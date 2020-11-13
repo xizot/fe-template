@@ -94,7 +94,6 @@ img {
 
 a,
 a img {
-  -webkit-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
 }
 
@@ -115,7 +114,6 @@ img {
 }
 
 .row {
-  display: -webkit-box;
   display: flex;
   flex-wrap: wrap;
   margin-left: -5px;
@@ -328,23 +326,19 @@ img {
 // Utility .u-
 ≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡*/
 .u-flex {
-  display: -webkit-box;
   display: flex;
   flex-wrap: wrap;
 }
 
 .u-a-center {
-  -webkit-box-align: center;
   align-items: center;
 }
 
 .u-j-between {
-  -webkit-box-pack: justify;
   justify-content: space-between;
 }
 
 .u-j-center {
-  -webkit-box-pack: center;
   justify-content: center;
 }
 
