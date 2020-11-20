@@ -15,6 +15,6 @@
 
 \*Image path:
 
-\*in .ejs file alway start at "**./assets/**"
+\*in .ejs file always start at "**./assets/**"
 
-\*in .scss file alway start at "**../img/**"
+\*in .scss file always start at "**../img/**"
