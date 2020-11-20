@@ -23,22 +23,33 @@
     display: flex;
     flex-wrap: wrap;
 }
-.u-a-center {
+.u-center {
     align-items: center;
 }
-.u-j-between {
+.u-between {
     justify-content: space-between;
 }
-
-.u-j-center {
+.u-t-center {
+    text-align: center;
+}
+.u-center {
     justify-content: center;
 }
 .u-fullheight {
     height: 100vh;
 }
-.u-pd-20 {
-    padding: 20px;
+.u-fullwidth {
+    width: 100vw;
 }
-.u-wrap-reverse {
+
+.u-reverse {
     flex-wrap: wrap-reverse;
+}
+.u-fade {
+    opacity: 0;
+    transition: 700ms ease-in-out;
+}
+
+.u-fade.u-fade--show {
+    opacity: 1;
 }

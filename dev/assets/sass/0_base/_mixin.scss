@@ -10,12 +10,6 @@
     }
 }
 
-// box
-@mixin box($width, $height: $width) {
-    width: $width;
-    height: $height;
-}
-
 // cover background
 @mixin cover-background {
     background-repeat: no-repeat;
